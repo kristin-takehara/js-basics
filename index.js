@@ -16,6 +16,23 @@ console.log(pet);
 * Each value should be a String. 
 **/
 
+var firstName = "Kristin";
+console.log(firstName);
+var lastName = "Takehara";
+console.log(lastName);
+var birthPlace = "Honolulu, HAWAII";
+console.log(birthPlace);
+var favoriteFood = "sushi"
+console.log(favoriteFood);
+var bestMovie = "Harry Potter";
+console.log(bestMovie);
+var favLoveSong = "Spend My Life With You";
+console.log(favLoveSong);
+var cuteAnimal = "puppy"
+console.log(cuteAnimal);
+var favColor = "purple"
+console.log(favColor);
+
 
 /**
 * #2
@@ -26,6 +43,26 @@ console.log(pet);
 * Each value should be a Number
 **/
 
+var favoriteNumber = 7;
+console.log(favoriteNumber);
+var currentYear = 2017;
+console.log(currentYear);
+var thatOnePrinceSong = 1999;
+console.log(thatOnePrinceSong);
+var tokyoOlympics = 2020;
+console.log(tokyoOlympics);
+var mariahCareyAge = 47;
+console.log(mariahCareyAge);
+var currentTemp = 75;
+console.log(currentTemp);
+var studentsInClass = 6;
+console.log(studentsInClass);
+var numOfJapanPrefectures = 47;
+console.log(numOfJapanPrefectures);
+var currentIphoneModel = 6;
+console.log(currentIphoneModel);
+var shoeSize = 8;
+console.log(shoeSize);
 
 /**
 * #3
@@ -36,6 +73,26 @@ console.log(pet);
 * Each value should be a Boolean
 **/
 
+var likesMcDonalds = false;
+console.log(likesMcDonalds);
+var watchedMrRobot = false;
+console.log(watchedMrRobot);
+var ranMarathon = true;
+console.log(ranMarathon);
+var wrestledABear = false;
+console.log(wrestledABear);
+var lovesDonuts = true;
+console.log(lovesDonuts);
+var readHarryPotter = true;
+console.log(readHarryPotter);
+var sleptInClass = true;
+console.log(sleptInClass);
+var drinksCoffee = true;
+console.log(drinksCoffee);
+var shopsAtWholeFoods = true;
+console.log(shopsAtWholeFoods);
+var ownsRedShoes = true;
+console.log(ownsRedShoes);
 
 /**
 * #4
@@ -46,12 +103,19 @@ console.log(pet);
 * Each value should be Null 
 **/
 
+var completedPrepClass = null;
+console.log(completedPrepClass);
+var traveledToMars = null;
+console.log(traveledToMars);
+var scoredTDinNFL = null;
+console.log(scoredTDinNFL);
 
 /*
 #5. 
 * What is the difference between null and undefined? Type your answer in two or three commented-out sentences.
 */
 
+/*A variable of null has only one value, null. Therefore null is considered an object.  An undefined variable references a variable that is unidentifiable or not set.*/
 
 /**
 * #6
@@ -65,7 +129,18 @@ console.log(pet);
 * Declare a variable named `mixPlate` and assign it an array containing different data types of your choosing.
 **/
 
-
+var plateLunch = ["teri beef", "mac salad", "rice", "gravy", "tossed greens"];
+console.log(plateLunch);
+var fruitBasket = ["mango", "peach", "pear", "cherry", "lychee"];
+console.log(fruitBasket);
+var westCoast = ["Alaska", "Washington", "Oregon", "California", "Hawaii"];
+console.log(westCoast);
+var lotteryResult = [3, 7, 10, 12, 20];
+console.log(lotteryResult);
+var duets; [["simon", "garfunkle"], ["hall", "oates"], ["run dmc", "aerosmith"]];
+console.log(duets);
+var mixPlate = ["poi", 7, plateLunch, [1, 2, 3]];
+console.log(mixPlate);
 
 /*7
 * Accessing Values in Arrays
@@ -77,7 +152,9 @@ What is the index position of carrot cake? Please print this item to the console
 What is the index position of lemon bars? Please print this item to the console.
 */
 
-
+5
+0
+4
 
 /*
 * #8 
@@ -93,6 +170,18 @@ What is the index position of lemon bars? Please print this item to the console.
 At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 */
 
+var fullName = firstName + " " + lastName;
+console.log(fullName);
+var whereFrom = fullName + " " + "is from" + " " + birthPlace + ".";
+
+var favSneaker = "Chucks";
+console.log(favSneaker);
+var coffeeShop = "Starbucks";
+console.log(coffeeShop);
+
+console.log(whereFrom);
+var mariahStory = "At the age of" + " " + mariahCareyAge + "," + " " + "wearing her fancy" + " " + favSneaker + "," + " " + "sang" +  " " + favLoveSong + " " + "at the" + " " + coffeeShop + ".";
+console.log(mariahStory);
 
 
 /*
@@ -108,6 +197,24 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * What is the remainder when you divide num1 by num2? Print your answer to the console.
 */
 
+var num1 = 1
+console.log(num1);
+var num2 = 2
+console.log(num2);
+
+var sum = num1 + num2;
+console.log(sum);
+
+var difference = num1 - num2;
+console.log(difference);
+
+var product = num1 * num2;
+console.log(product);
+
+var quotient = num1 / num2;
+console.log(quotient);
+
+0.5
 
 /*
 * #10
@@ -123,6 +230,20 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * Print both variables to the console. If the answers are different, why? If not, why not? Write you answer two or three commented-out sentences.
 */
 
+var isStrictlyEqual = "Tacocat" === "tacocat";
+console.log(isStrictlyEqual);
+var isLooselyEqual = "Tacocat" == "tacocat";
+console.log(isLooselyEqual);
+
+/* The answers are both false because when read, they are not the same*/
+
+var sameNum = "5" === 5;
+console.log(sameNum);
+var sameNumba = "5" == 5;
+console.log(sameNumba);
+
+/*When comparing the value of the string "5" and the number 5, they are READ the same, thus making them both true./*
+
 /*
 * Use the logical && or || and compare the following:
 * 3>2 3<1 (use or)
@@ -130,7 +251,12 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * 7>2 8<5 (use and)
 * Declare variables and print the results to the console. What are the differences between the three and why?*/
 
-
+var isConfusing = 3>2 || 3<1;
+console.log(isConfusing);
+var areBothTrue = 3>2 && 6>3;
+console.log(areBothTrue);
+var anotherConfusing = 7>2 && 8<5;
+console.log(anotherConfusing);
 
 /*
 * #11
@@ -145,6 +271,25 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * assignment statement to show the current value. REMEMBER: an assignment is DIFFERENT from a declaration.
 */
 
+var myBox = 3;
+console.log(myBox);
+
+var myHydroflask = 1;
+console.log(myHydroflask);
+
+var myGum = 12;
+console.log(myGum);
+
+var myShoes = 2;
+console.log(myShoes);
+
+var myCar = 2006;
+console.log(myCar);
+
+var myAge = 32;
+console.log(myAge);
+
+
 /*
 * Final Boss 
 * Additional exercises designed to further challenge you and give you a jump start on the next topic that'll be covered.
@@ -156,17 +301,31 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * Declare a variable 'pieResult' and assign it to the function call.
 * Console.log the variable to see the result.*/
 
+function bakepie(ingredient){
+
+     return "Today's special is " + ingredient + " pie.";
+
+}
+console.log(bakepie("apple"));
+
+var pieResult = bakepie("blueberry");
+console.log(pieResult);
+
 
 /*
 * Declare a Function named `jump` which has a single parameter, `height`.
 * This function should return a string, "You jumped height feet high!" Where height will be the value that you pass into the function.
-* For example, if the value is 9, it should return "You jumped 9 feet high!"
-
-
+* For example, if the value is 9, it should return "You jumped 9 feet high!
 
 * Declare a variable 'jumpResult' and assign it to the function call.
 * Console.log the variable to see the result.*/
 
+function jump(height){
+
+     return "You jumped " + height + " high!";
+
+}
+console.log(jump("10"));
 
 /*
 * Declare a Function named `cook` which a takes three parameters, `ingredient1`, `ingredient2`, `recipeName`.
@@ -174,3 +333,8 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 */
 
+function cook(ingredient1, ingredient2, recipeName){
+
+     return ingredient1 + " and " + ingredient2 + " make a " + recipeName + ".";
+}
+console.log(cook("Tomatoes", "cheese", "pizza"));
